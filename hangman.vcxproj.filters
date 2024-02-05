@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="hangman.cpp">
+      <Filter>hangman</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="hangman">
+      <UniqueIdentifier>{2d08740d-59fd-4e57-b89a-b3955316a6f2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="hangman.h">
+      <Filter>hangman</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
